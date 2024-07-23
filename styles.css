@@ -1,0 +1,98 @@
+body {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: "Abril Fatface", sans-serif;
+  margin-bottom: 0;
+}
+
+.w {
+  background-image: url('./images/tom1.png');
+  background-position: center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+}
+
+.a {
+  background-image: url('./images/tom2.png');
+  background-position: center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+}
+
+.s {
+  background-image: url('./images/tom3.png');
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+}
+
+.d {
+  background-image: url('./images/tom4.png');
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+}
+
+.j {
+  background-image: url('./images/snare.png');
+  background-position: center;
+  background-size: 65%;
+  background-repeat: no-repeat;
+
+}
+
+.k {
+  background-image: url('./images/crash.png');
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+
+}
+
+.l {
+  background-image: url('./images/kick.png');
+  background-position: center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+.set {
+  margin: 5% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 5px solid #000;
+  font-size: 3rem;
+  font-family: 'Abril Fatface', sans-serif;
+  line-height: 2;
+  font-weight: bold;
+  text-shadow: 3px 0 5px #FFF;
+  border-radius: 10px;
+
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+
+  text-align: center;
+  margin: 5px;
+  background-color: white;
+}
